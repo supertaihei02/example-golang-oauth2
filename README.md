@@ -29,6 +29,14 @@ facebookClientSecret = ""
 githubClientID = ""
 githubClientSecret = ""
 
+/*
+Channel ID, Secretを取得する
+https://developers.line.me/
+*/
+lineClientID = ""
+lineClientSecret = ""
+lineRedirectURL = ""
+
 SessionOn = true
 ```
 インストール
