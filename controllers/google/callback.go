@@ -3,7 +3,7 @@ package controllersGoogle
 import (
 	"context"
 	"errors"
-	"example-golang-oauth2/lib/google"
+	"github.com/supertaihei02/example-golang-oauth2/lib/google"
 
 	"github.com/astaxie/beego"
 	v2 "google.golang.org/api/oauth2/v2"

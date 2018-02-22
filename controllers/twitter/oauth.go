@@ -1,7 +1,7 @@
 package controllersTwitter
 
 import (
-	"example-golang-oauth2/lib/twitter"
+	"github.com/supertaihei02/example-golang-oauth2/lib/twitter"
 
 	"github.com/astaxie/beego"
 )

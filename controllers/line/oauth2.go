@@ -1,7 +1,7 @@
-package controllersGoogle
+package controllersLine
 
 import (
-	"github.com/supertaihei02/example-golang-oauth2/lib/google"
+	"github.com/supertaihei02/example-golang-oauth2/lib/line"
 
 	"github.com/astaxie/beego"
 )
@@ -13,7 +13,7 @@ type Oauth2Controller struct {
 
 // Get 認証する
 func (c *Oauth2Controller) Get() {
-	config := google.GetConnect()
+	config := line.GetConnect()
 
 	url := config.AuthCodeURL("")
 

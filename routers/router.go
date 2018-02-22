@@ -1,13 +1,14 @@
 package routers
 
 import (
-	"example-golang-oauth2/controllers"
-	"example-golang-oauth2/controllers/facebook"
-	"example-golang-oauth2/controllers/github"
-	"example-golang-oauth2/controllers/google"
-	"example-golang-oauth2/controllers/twitter"
+	"github.com/supertaihei02/example-golang-oauth2/controllers"
+	"github.com/supertaihei02/example-golang-oauth2/controllers/facebook"
+	"github.com/supertaihei02/example-golang-oauth2/controllers/github"
+	"github.com/supertaihei02/example-golang-oauth2/controllers/google"
+	"github.com/supertaihei02/example-golang-oauth2/controllers/twitter"
 
 	"github.com/astaxie/beego"
+	"github.com/supertaihei02/example-golang-oauth2/controllers/line"
 )
 
 func init() {
@@ -18,6 +19,8 @@ func init() {
 	beego.Router("/twitter/post", &controllersTwitter.TweetController{})
 	beego.Router("/facebook/oauth2", &controllersFacebook.Oauth2Controller{})
 	beego.Router("/facebook/callback", &controllersFacebook.CallbackController{})
+	beego.Router("/line/oauth2", &controllersLine.Oauth2Controller{})
+	beego.Router("/line/callback", &controllersLine.CallbackController{})
 	beego.Router("/github/oauth2", &controllersGithub.Oauth2Controller{})
 	beego.Router("/github/callback", &controllersGithub.CallbackController{})
 

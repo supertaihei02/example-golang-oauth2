@@ -52,6 +52,14 @@
                 <a href="http://localhost:8080/github/oauth2">oauth2認証</a>
             </div>
         </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa" aria-hidden="true" style="font-size:2.5rem;"></i>&nbsp;&nbsp;LINEログイン
+            </div>
+            <div class="panel-body">
+                <a href="http://localhost:8080/line/oauth2">oauth2認証</a>
+            </div>
+        </div>
         <br />
     </div>
 </body>

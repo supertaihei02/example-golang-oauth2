@@ -1,7 +1,7 @@
 package controllersGithub
 
 import (
-	"example-golang-oauth2/lib/github"
+	"github.com/supertaihei02/example-golang-oauth2/lib/github"
 
 	"github.com/astaxie/beego"
 )

@@ -2,7 +2,7 @@ package controllersFacebook
 
 import (
 	"errors"
-	"example-golang-oauth2/lib/facebook"
+	"github.com/supertaihei02/example-golang-oauth2/lib/facebook"
 
 	"github.com/astaxie/beego"
 	fb "github.com/huandu/facebook"
